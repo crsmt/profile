@@ -5,8 +5,11 @@
       background-size: cover;
 
     }
-    a {
+    a: hover {
       color: white;
+       }
+
+
     }
     h1 {
       font-size: 70px;
