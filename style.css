@@ -1,38 +1,68 @@
-h1 {
-  color: gray;
-  font-family: 'Arial', ;
-  font-size: 48px;
-  letter-spacing: 10px;
+.border-box {
+  box-sizing: border-box;
+}
+
+*{margin: 0;}
+
+header {
+  height: 100px;
+  padding: 10px;
+}
+
+footer {
+  height: 70px;
+  width: 100%;
+  padding: 10px;
+  bottom: 0;
+  position: fixed;
+}
+
+.white-text {
+  color: white;
+  font-family: Arial;
+  background: #1d2124;
+  text-align: center
+}
+
+main p, h2, a {
+  color: #1d2124;
+  font-family: Arial Black;
   text-align: center;
-  text-transform: uppercase;
 }
 
-h2 {
-  color: ;
-  font-family: 'Times New Roman', Times, serif;
+.split {
+  height: 500px;
+  width: 50%;
+  position: fixed;
+  margin: auto;
+//  z-index: 1;
+//  top: 100px;
+//  overflow-x: hidden;
+//  padding-top: 20px;
+//  border: 3px solid pink;
 }
 
-h3 {
-  color: brown;
-  font-family: 'Times New Roman', Times, serif;
+.left {
+  left: 0;
+  background-color: white;
+  padding-left: 80px;
 }
 
-p {
-  color: gray;
-  font-family: 'Times New Roman';
+.right {
+  text-align: right;
+  right: 0;
+  top: 100px;
+  background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fradaris.com%2Fp%2FChelsea%2FToler%2F&psig=AOvVaw29RVraNBE_YQiUUHDiYrFW&ust=1618975295659000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICioZTvi_ACFQAAAAAdAAAAABAD");
+  background-repeat:no-repeat;
+  background-size: 50%;
+  background-color: white;
+  
 }
-img {
-      margin: 40px 0px 0px 0px;
-      border: 7px solid white;
-      border-radius: 20px;
- height: 35px;
-    }
-ul {
-      padding: 10px;
-      background: rgba(0,0,0,0.5);
-    }
-    li {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-    }
-     
+
+.centered {
+  height: 500px
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
