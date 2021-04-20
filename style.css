@@ -1,22 +1,41 @@
-body,html,h1,h2,h3,h4,h5,h6 {
-  font-family: "Arial", sans-serif;
-  color: white;
-  font-size: medium;
-  
-}
+ header {
+      text-align: center;
+      background-color: gray;
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 70px;
+    }
     img {
       margin: 40px 0px 0px 0px;
       border: 7px solid white;
       border-radius: 20px;
     }
-
-button {
-  border: none;
-  background-color: rgb(190, 187, 187);
-  font-size: 16px;
-  cursor: pointer;
-  display: inline-block;
-}
-
-button:hover {background: rgb(150, 142, 142);
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
      
